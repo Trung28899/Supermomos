@@ -71,7 +71,14 @@ function FormContainer() {
       toastSuccess(translate("createSocial.toastMessage.success"));
       return router.push("/social-details");
     } catch (error: any) {
-      toastError(error.response.data.detail[0].msg);
+      let errorMessage = translate("createSocial.toastMessage.error");
+
+      if (error.response?.data?.detail[0]?.msg)
+        errorMessage = error.response.data.detail[0].msg;
+      if (error.message) errorMessage = error.message;
+      toastError(errorMessage);
+
+      console.log(error);
     }
   }
 

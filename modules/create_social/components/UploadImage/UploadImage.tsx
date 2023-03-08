@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./UploadImage.module.scss";
 import Image from "next/image";
-import Photo from "../../../../public/logo.svg";
+import Photo from "../../../../public/image.svg";
 import { useTranslation } from "react-i18next";
 import BannerImage from "@/modules/common/components/BannerImage/BannerImage";
 

@@ -7,7 +7,6 @@ const nextConfig = {
       "supermomos-app-resources-us.s3.amazonaws.com",
       "supermomos-app-resourcesus.s3.amazonaws.com",
     ],
-    disableStaticImages: true,
     unoptimized: true,
   },
 };

@@ -14,7 +14,7 @@ function CreateSocial() {
       <TopSection />
       <div className={classes.description}>
         {descriptionArray.map((description) => (
-          <div>
+          <div key={description}>
             <p>{description}</p>
             <br />
           </div>

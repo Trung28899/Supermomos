@@ -33,6 +33,7 @@
   },
   "toastMessage": {
     "invalidDate": "Invalid Date or Time format",
-    "success": "New social event created successfully"
+    "success": "New social event created successfully",
+    "error": "There was a problem when sending the request"
   }
 }
