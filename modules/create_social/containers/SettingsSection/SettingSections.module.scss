@@ -1,0 +1,33 @@
+@import "@/styles/colors.scss";
+@import "@/styles/typography.scss";
+@import "@/styles/mixin.scss";
+
+.settingContainer {
+  border-radius: 6px;
+  width: 50%;
+  background-color: white;
+  padding: 24px;
+  margin-top: 10px;
+
+  @include mobile() {
+    width: 100%;
+  }
+
+  .checkBoxContainer {
+    margin-top: 24px;
+  }
+
+  .subSectionTitle {
+    @include P4_Medium();
+    margin: 15px 0px;
+  }
+
+  .subSectionSubTitle {
+    @include P3_Book();
+  }
+
+  .subSection {
+    width: 100%;
+    margin-top: 30px;
+  }
+}

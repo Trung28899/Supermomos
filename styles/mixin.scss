@@ -1,0 +1,32 @@
+@import "./colors.scss";
+@import "@/styles/variables.scss";
+
+@mixin mobile() {
+  @media screen and (max-width: $screenMedium - 1) {
+    @content;
+  }
+}
+
+@mixin ipad() {
+  @media screen and (max-width: $screenLarge - 1) {
+    @content;
+  }
+}
+
+@mixin xLarge() {
+  @media screen and (min-width: $screenXLarge - 1) {
+    @content;
+  }
+}
+
+@mixin backGroundColor() {
+  background: $yellow;
+  background: linear-gradient(138.11deg, $yellow 0%, $purple 121.92%);
+}
+
+@mixin pageContainer() {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  height: fit-content;
+}

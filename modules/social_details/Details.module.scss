@@ -1,0 +1,12 @@
+@import "@/styles/mixin.scss";
+
+.container {
+  @include pageContainer();
+  @include backGroundColor();
+
+  .description {
+    padding: 15px 60px;
+    width: 40%;
+    margin-left: 5%;
+  }
+}

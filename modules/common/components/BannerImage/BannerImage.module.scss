@@ -1,0 +1,54 @@
+@import "@/styles/colors.scss";
+@import "@/styles/typography.scss";
+
+.bannerImageContainer {
+  display: relative;
+  height: 400px;
+  margin: auto 0px;
+  margin-left: 50px;
+  cursor: pointer;
+
+  .image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0px 64px;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+  }
+
+  .hoverText {
+    position: relative;
+    width: fit-content;
+    opacity: 0;
+    transition: 0.5s ease;
+    color: white;
+    margin: 0px auto;
+    top: -50%;
+    transform: translateY(-50%);
+    @include P4_Bold();
+    display: flex;
+    align-items: center;
+    gap: 0px 10px;
+  }
+
+  .hoverItem {
+    position: absolute;
+    transition: 0.5s ease;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  &:hover .imageUpload {
+    opacity: 0.3;
+  }
+
+  &:hover .hoverItem,
+  &:hover .hoverText {
+    opacity: 1;
+  }
+}

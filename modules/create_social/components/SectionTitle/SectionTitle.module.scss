@@ -1,0 +1,11 @@
+@import "@/styles/colors.scss";
+@import "@/styles/typography.scss";
+
+.titleStyle {
+  color: $purple;
+  background-color: $yellow;
+  @include H3_Bold();
+  padding: 12px;
+  width: fit-content;
+  margin: 0px;
+}

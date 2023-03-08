@@ -1,0 +1,49 @@
+@import "@/styles/colors.scss";
+@import "@/styles/typography.scss";
+@import "@/styles/mixin.scss";
+
+.container {
+  position: relative;
+  width: 100%;
+  padding: 15px 60px;
+  margin-top: 30px;
+  padding-bottom: 10vh;
+
+  .topSection {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+
+    @include mobile() {
+      grid-template-columns: 100%;
+    }
+
+    .inputContainer {
+      .titleContainer {
+        width: 100%;
+      }
+
+      .twoInputContainer {
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+      }
+    }
+  }
+
+  .descriptionContainer {
+    width: 50%;
+    @include mobile() {
+      width: 100%;
+    }
+  }
+
+  .buttonContainer {
+    width: 50%;
+    margin-top: 30px;
+    @include mobile() {
+      width: 100%;
+    }
+  }
+}

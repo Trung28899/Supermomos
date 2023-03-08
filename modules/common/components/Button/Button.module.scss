@@ -1,0 +1,26 @@
+@import "@/styles/colors.scss";
+@import "@/styles/typography.scss";
+
+.button {
+  width: 100%;
+  padding: 12px 0px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  @include P3_Heavy();
+  border: 0px;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.primary {
+  background-color: white;
+  color: black;
+}
+
+.yellow {
+  background-color: $yellow;
+  color: $purple;
+}

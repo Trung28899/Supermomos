@@ -1,0 +1,4 @@
+- Form validation and state management
+- Sending request to BE, get response
+- Code the Front-end for detail page
+- Connecting the whole flow. Might need to use redux

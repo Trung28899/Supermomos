@@ -1,0 +1,38 @@
+{
+  "placeHolders": {
+    "title": "Untitle Event",
+    "date": "Date (day/month/year)",
+    "time": "Time (hour:minute)",
+    "venue": "Venue",
+    "capacity": "Max Capacity",
+    "cost": "Cost per person",
+    "banner": "Add a banner",
+    "description": "Description of your event",
+    "updateBanner": "Update Banner"
+  },
+  "label": {
+    "description": "Description",
+    "setting": "Settings",
+    "approve": "I want to approve attendees",
+    "public": "Public",
+    "privacy": "Privacy",
+    "curated": "Curated Audience",
+    "community": "Community Only",
+    "product": "Product",
+    "marketing": "Marketing",
+    "design": "Design",
+    "engineering": "Engineering",
+    "tagYourSocial": "Tag your social",
+    "pickTags": "Pick tags for our curation engine to work its magic",
+    "chooseBanner": "Choose a banner"
+  },
+  "buttons": {
+    "createSocial": "CREATE SOCIAL",
+    "close": "Close",
+    "save": "Save"
+  },
+  "toastMessage": {
+    "invalidDate": "Invalid Date or Time format",
+    "success": "New social event created successfully"
+  }
+}
