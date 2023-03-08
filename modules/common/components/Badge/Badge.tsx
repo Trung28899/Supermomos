@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
 import classes from "./Badge.module.scss";
-import Close from "@/public/purple_close.svg";
+import Close from "../../../../public/purple_close.svg";
 import Image from "next/image";
 
 interface BadgeProps {

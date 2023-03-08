@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import classes from "./ModalContent.module.scss";
 import Image from "next/image";
-import CloseIcon from "@/public/close.svg";
+import CloseIcon from "../../../../public/close.svg";
 import { useTranslation } from "react-i18next";
 import useMockData from "@/modules/common/hooks/useMockData";
 import Button from "@/modules/common/components/Button/Button";

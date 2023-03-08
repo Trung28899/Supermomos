@@ -1,8 +1,8 @@
 import React, { ReactNode } from "react";
 import Image from "next/image";
 import classes from "./NavBar.module.scss";
-import Logo from "@/public/logo.svg";
-import Down from "@/public/down.svg";
+import Logo from "../../../../public/logo.svg";
+import Down from "../../../../public/logo.svg";
 import { useTranslation } from "react-i18next";
 
 interface NavBarOptionProps {

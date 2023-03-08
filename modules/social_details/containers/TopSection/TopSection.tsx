@@ -4,12 +4,12 @@ import BannerImage from "@/modules/common/components/BannerImage/BannerImage";
 import useSocialDetails from "../../hooks/useSocialDetails";
 import { convertTimeIntoDateAndTime } from "../../utils/time_helpers";
 import { useTranslation } from "react-i18next";
-import Calendar from "@/public/calendar.svg";
-import Clock from "@/public/time.svg";
-import Place from "@/public/place.svg";
+import Calendar from "../../../../public/calendar.svg";
+import Clock from "../../../../public/time.svg";
+import Place from "../../../../public/place.svg";
 import Image from "next/image";
-import Capacity from "@/public/capacity.svg";
-import Dollar from "@/public/dollar.svg";
+import Capacity from "../../../../public/capacity.svg";
+import Dollar from "../../../../public/dollar.svg";
 
 function TopSection() {
   const { t: translate } = useTranslation();

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Photo from "@/public/image.svg";
+import Photo from "../../../../public/image.svg";
 import { useTranslation } from "react-i18next";
 import classes from "./BannerImage.module.scss";
 
